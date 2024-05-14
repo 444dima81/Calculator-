@@ -1,0 +1,36 @@
+.calc-row {
+    height: 100vh;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.input-window {
+    text-align: end;
+    font-size: x-large;
+}
+
+.btn-group button {
+    background-color: #04AA6D; /* Зеленый фон */
+    border: 1px solid green; /* Зеленая рамка */
+    color: white; /* Белый текст */
+    padding: 10px 20px; /* Некоторый отступ */
+    cursor: pointer; /* Иконка указателя/руки */
+    float: left; /* Выстраиваем кнопки рядом друг с другом */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Исключаем двойную рамку */
+  }
+  
+  /* Сбрасываем обтекание (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Добавляем фон при наведении курсора */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+  
+  
